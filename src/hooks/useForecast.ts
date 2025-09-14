@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react'
 import { forecastType, optionType } from '../types'
 
-const BASE_URL = 'http://api.openweathermap.org'
+const BASE_URL = 'https://api.openweathermap.org'
 
 const useForecast = () => {
   const [term, setTerm] = useState<string>('')
